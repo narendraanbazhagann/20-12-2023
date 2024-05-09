@@ -1,0 +1,12 @@
+def dollar(a):
+    print(a*83.49)
+def fahrenheit(a):
+    print((a*9/5)+32)
+def bms(a,b):
+    print(a/b)
+d=int(input("Enter indian rupees:"))
+e=dollar(d)
+print(e)
+s=int(input("Enter the celsius"))
+f=fahrenheit(s)
+print(f)
